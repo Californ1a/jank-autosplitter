@@ -1,0 +1,21 @@
+{
+	"name": "alt1autosplitter",
+	"version": "1.0.0",
+	"description": "send alt1 log message to livesplit",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Californ1a (https://github.com/Californ1a)",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^7.14.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-import": "^2.22.1"
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"livesplit-client": "^0.2.0",
+		"tail": "^2.2.0"
+	}
+}
